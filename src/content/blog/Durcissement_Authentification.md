@@ -1,5 +1,5 @@
 ---
-title: "DURCISSEMENT OS"
+title: "DURCISSEMENT OS - Authentification"
 description: "Scripts de durcissement et tests associ√s pour la plupart©"
 pubDate: "May 25 2024"
 heroImage: "/post_img.webp"
