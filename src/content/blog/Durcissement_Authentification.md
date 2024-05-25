@@ -294,7 +294,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.100
+# EXIGENCE.AUTH.100
 # Les comptes utilisateurs doivent avoir une date d'expiration
 tbegin "Test non implémenté"
 tfail
@@ -313,7 +313,7 @@ tuse file-tests
 
 tinit
 
-# SEDUCS.AUTH.210
+# EXIGENCE.AUTH.210
 # Les droits sur le fichier /etc/passwd doivent limiter l’accès en écriture à l’administrateur.
 
 
@@ -333,7 +333,7 @@ tuse file-tests
 
 tinit
 
-# SEDUCS.AUTH.210
+# EXIGENCE.AUTH.210
 # Les droits sur le fichier /etc/passwd doivent limiter l’accès en écriture à l’administrateur.
 
 
@@ -353,7 +353,7 @@ tuse file-tests
 
 tinit
 
-# SEDUCS.AUTH.230
+# EXIGENCE.AUTH.230
 # Les droits sur le fichier /etc/group doivent limiter l’accès en écriture à l’administrateur.
 
 tperms 644 root root /etc/group
@@ -372,7 +372,7 @@ tuse file-tests
 
 tinit
 
-# SEDUCS.AUTH.240
+# EXIGENCE.AUTH.240
 # Les droits sur le fichier /etc/gshadow doivent limiter l’accès en écriture à l’administrateur.
 
 
@@ -390,7 +390,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.500
+# EXIGENCE.AUTH.500
 # Chaque service doit posséder un compte distinct
 
 # Liste des comptes de service
@@ -414,7 +414,7 @@ tuse config
 
 tinit
 
-# SEDUCS.AUTH.600
+# EXIGENCE.AUTH.600
 # Le compte root doit être désactivé, que ce soit en login local ou en login distant
 
 
@@ -453,7 +453,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.800
+# EXIGENCE.AUTH.800
 # La session utilisateur doit se verrouiller (mode graphique) ou se
 # fermer (mode console) au bout d'un temps d'inactivité
 tbegin "Test non implémenté"
@@ -471,7 +471,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.900
+# EXIGENCE.AUTH.900
 # Un utilisateur accédant au système doit voir un message d'avertisseme
 # d'accès au système avant, pendant, et après le lo
 tbegin "Test non implément�
@@ -489,7 +489,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1000
+# EXIGENCE.AUTH.1000
 # Les services utilisant PAM doivent correspondre à ceux listés dans
 # la documentation d’architecture
 tbegin "Test non implémenté"
@@ -510,7 +510,7 @@ tuse config
 
 tinit
 
-# SEDUCS.AUTH.1100
+# EXIGENCE.AUTH.1100
 # Tout le trafic vers le service d'authentification doit être chiffré via le protocole TLS
 
 tbegin "Test du chiffrement du service d'authentification"
@@ -532,7 +532,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1200
+# EXIGENCE.AUTH.1200
 # Les mots de passe des comptes utilisateurs doivent être hashés en mode
 # SHA-512 (mode 6 dans /etc/shadow)
 
@@ -567,7 +567,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1300
+# EXIGENCE.AUTH.1300
 # Le listage des utilisateurs de l'annuaire centralisé par un utilisateur
 # du système doit être désactivé
 tbegin "Test non implémenté"
@@ -585,7 +585,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1500
+# EXIGENCE.AUTH.1500
 # Les mots de passe des comptes utilisateurs doivent respecter une politique
 # de mot de passe avec les paramètres minimaux décrits en annexe 6.5 ci-dessous
 tbegin "Test non implémenté"
@@ -604,7 +604,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1600
+# EXIGENCE.AUTH.1600
 # Les mots de passe usine d'administration doivent être changés au premier
 # login ou à l'installation, en respectant la politique de mot de passe
 tbegin "Test non implémenté"
@@ -622,7 +622,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1610
+# EXIGENCE.AUTH.1610
 # Chaque machine doit avoir un mot de passe d’administrateur local différent
 tbegin "Test non implémenté"
 tfail
@@ -640,7 +640,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1700
+# EXIGENCE.AUTH.1700
 # Les mots de passe doivent avoir une longueur strictement supérieure à 0
 tbegin "Test non implémenté"
 tfail
@@ -659,7 +659,7 @@ treport
 
 tinit
 
-# SEDUCS.AUTH.1800
+# EXIGENCE.AUTH.1800
 # L'uid des utilisateurs du système doit être différent de 0 (à part root)
 
 
