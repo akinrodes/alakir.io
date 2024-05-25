@@ -8,6 +8,7 @@ tags: ["durcissement"]
 
 
 >>>> Durcissement AUTHENTIFICATION
+
 1- Script
 
 ```
@@ -43,7 +44,6 @@ treport
 
 ```
 
-#============================================
 2- Script
 
 
@@ -58,6 +58,7 @@ chmod 0600 /etc/shadow
 exit $?
 
 ```
+
 2.1 - Test associé ?
 
 
@@ -79,7 +80,7 @@ tperms 600 root root /etc/shadow
 treport
 
 ```
-#============================================
+
 3- Script
 
 
@@ -106,6 +107,7 @@ for user in ${listAcc}; do
 done
 
 ```
+
 3.1 - Test associé 
 
 ```
@@ -142,7 +144,7 @@ done
 treport
 
 ```
-#============================================
+
 4- Script 
 
 
@@ -191,8 +193,8 @@ fi
 treport
 
 ```
-#============================================
- 5- Script
+
+5- Script
 
 
 ```
@@ -210,6 +212,7 @@ echo "umask 0027" > ${UMASKFILE}
 exit $?
 
 ```
+
 5.1- Test associé
 
 ```
@@ -228,7 +231,7 @@ tfail
 treport
 
 ```
-#============================================
+
 6- Script
 
 ```
@@ -249,6 +252,7 @@ fi
 exit 0
 
 ```
+
 6.1 - Test associé
 
 
